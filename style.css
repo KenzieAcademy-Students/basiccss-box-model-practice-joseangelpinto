@@ -5,26 +5,73 @@ body {
 
 /* Only modify the styles within the following CSS Rules */
 
+body {
+  background:papayawhip;
+  margin: 0;
+  padding: 0;
+}
+
+
 .box-one {
-  
+  height:100px;
+  background: lightblue; 
+  margin:auto; 
+  text-align: center;
+  box-shadow: 5px 0px 10px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+   
 }
 
 .box-two {
-
+  height:100px; 
+  background: lightcyan; 
+  line-height: 100px;
+  margin:20px 100px; 
+  padding:0.5in 100px;
+  text-align: center;
+  box-shadow: 5px 0px 10px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
 
 .box-three {
-
+  width: 700px; 
+  height:13vw; 
+  background: rgb(32, 178, 170); 
+  margin:auto;
+  text-align: right;
+  padding: 10px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  box-shadow: 5px 0px 10px;
 }
 
 .box-four {
-
+  background-color: #90ee90;
+  width: 15vw;
+  height: 20px; 
+  margin: 20px auto; 
+  border: 7px solid greenyellow;
+  padding: 30px ;
+  text-align: letf;
+  box-shadow: 5px 0px 10px; 
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
 
 .box-five {
+  width: 130px;
+  height:40px;
+  border: 5px dotted #008000; 
+  margin:auto;  
+  text-align: left;
+  padding: 20px 20px 60px 20px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 
 }
 
 .box-six {
-
+  width: 120px;
+  height:15%;
+  border: dashed lime; 
+  margin: -50px auto; /* -80px 940px*/
+  padding: 5px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
